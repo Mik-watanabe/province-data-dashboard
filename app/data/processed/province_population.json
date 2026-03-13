@@ -1,0 +1,982 @@
+[
+  {
+    "province": "Canada",
+    "population": 34834973,
+    "year": 2012
+  },
+  {
+    "province": "Canada",
+    "population": 35209597,
+    "year": 2013
+  },
+  {
+    "province": "Canada",
+    "population": 35555305,
+    "year": 2014
+  },
+  {
+    "province": "Canada",
+    "population": 35823591,
+    "year": 2015
+  },
+  {
+    "province": "Canada",
+    "population": 36257421,
+    "year": 2016
+  },
+  {
+    "province": "Canada",
+    "population": 36722075,
+    "year": 2017
+  },
+  {
+    "province": "Canada",
+    "population": 37259485,
+    "year": 2018
+  },
+  {
+    "province": "Canada",
+    "population": 37828162,
+    "year": 2019
+  },
+  {
+    "province": "Canada",
+    "population": 38027406,
+    "year": 2020
+  },
+  {
+    "province": "Canada",
+    "population": 38460257,
+    "year": 2021
+  },
+  {
+    "province": "Canada",
+    "population": 39284491,
+    "year": 2022
+  },
+  {
+    "province": "Canada",
+    "population": 40467722,
+    "year": 2023
+  },
+  {
+    "province": "Canada",
+    "population": 41494132,
+    "year": 2024
+  },
+  {
+    "province": "Canada",
+    "population": 41575585,
+    "year": 2025
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 527065,
+    "year": 2012
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 527948,
+    "year": 2013
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 528266,
+    "year": 2014
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 528843,
+    "year": 2015
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 530368,
+    "year": 2016
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 530153,
+    "year": 2017
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 528926,
+    "year": 2018
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 528442,
+    "year": 2019
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 526046,
+    "year": 2020
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 528342,
+    "year": 2021
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 533194,
+    "year": 2022
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 541126,
+    "year": 2023
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 548402,
+    "year": 2024
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "population": 549738,
+    "year": 2025
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 144396,
+    "year": 2012
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 143943,
+    "year": 2013
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 144342,
+    "year": 2014
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 144949,
+    "year": 2015
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 147699,
+    "year": 2016
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 150595,
+    "year": 2017
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 153906,
+    "year": 2018
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 157025,
+    "year": 2019
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 159179,
+    "year": 2020
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 163580,
+    "year": 2021
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 168939,
+    "year": 2022
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 176173,
+    "year": 2023
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 180877,
+    "year": 2024
+  },
+  {
+    "province": "Prince Edward Island",
+    "population": 182508,
+    "year": 2025
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 942829,
+    "year": 2012
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 939442,
+    "year": 2013
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 938157,
+    "year": 2014
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 938914,
+    "year": 2015
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 946623,
+    "year": 2016
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 956074,
+    "year": 2017
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 967578,
+    "year": 2018
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 982592,
+    "year": 2019
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 989154,
+    "year": 2020
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 1006562,
+    "year": 2021
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 1033146,
+    "year": 2022
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 1062825,
+    "year": 2023
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 1088273,
+    "year": 2024
+  },
+  {
+    "province": "Nova Scotia",
+    "population": 1091857,
+    "year": 2025
+  },
+  {
+    "province": "New Brunswick",
+    "population": 758408,
+    "year": 2012
+  },
+  {
+    "province": "New Brunswick",
+    "population": 758379,
+    "year": 2013
+  },
+  {
+    "province": "New Brunswick",
+    "population": 759192,
+    "year": 2014
+  },
+  {
+    "province": "New Brunswick",
+    "population": 759971,
+    "year": 2015
+  },
+  {
+    "province": "New Brunswick",
+    "population": 764820,
+    "year": 2016
+  },
+  {
+    "province": "New Brunswick",
+    "population": 768029,
+    "year": 2017
+  },
+  {
+    "province": "New Brunswick",
+    "population": 772793,
+    "year": 2018
+  },
+  {
+    "province": "New Brunswick",
+    "population": 780907,
+    "year": 2019
+  },
+  {
+    "province": "New Brunswick",
+    "population": 783814,
+    "year": 2020
+  },
+  {
+    "province": "New Brunswick",
+    "population": 795691,
+    "year": 2021
+  },
+  {
+    "province": "New Brunswick",
+    "population": 816420,
+    "year": 2022
+  },
+  {
+    "province": "New Brunswick",
+    "population": 840130,
+    "year": 2023
+  },
+  {
+    "province": "New Brunswick",
+    "population": 863841,
+    "year": 2024
+  },
+  {
+    "province": "New Brunswick",
+    "population": 868630,
+    "year": 2025
+  },
+  {
+    "province": "Quebec",
+    "population": 8076838,
+    "year": 2012
+  },
+  {
+    "province": "Quebec",
+    "population": 8122462,
+    "year": 2013
+  },
+  {
+    "province": "Quebec",
+    "population": 8162631,
+    "year": 2014
+  },
+  {
+    "province": "Quebec",
+    "population": 8190074,
+    "year": 2015
+  },
+  {
+    "province": "Quebec",
+    "population": 8246383,
+    "year": 2016
+  },
+  {
+    "province": "Quebec",
+    "population": 8326075,
+    "year": 2017
+  },
+  {
+    "province": "Quebec",
+    "population": 8418646,
+    "year": 2018
+  },
+  {
+    "province": "Quebec",
+    "population": 8521542,
+    "year": 2019
+  },
+  {
+    "province": "Quebec",
+    "population": 8551865,
+    "year": 2020
+  },
+  {
+    "province": "Quebec",
+    "population": 8604508,
+    "year": 2021
+  },
+  {
+    "province": "Quebec",
+    "population": 8718914,
+    "year": 2022
+  },
+  {
+    "province": "Quebec",
+    "population": 8882501,
+    "year": 2023
+  },
+  {
+    "province": "Quebec",
+    "population": 9038268,
+    "year": 2024
+  },
+  {
+    "province": "Quebec",
+    "population": 9058089,
+    "year": 2025
+  },
+  {
+    "province": "Ontario",
+    "population": 13436625,
+    "year": 2012
+  },
+  {
+    "province": "Ontario",
+    "population": 13559499,
+    "year": 2013
+  },
+  {
+    "province": "Ontario",
+    "population": 13661282,
+    "year": 2014
+  },
+  {
+    "province": "Ontario",
+    "population": 13759762,
+    "year": 2015
+  },
+  {
+    "province": "Ontario",
+    "population": 13948180,
+    "year": 2016
+  },
+  {
+    "province": "Ontario",
+    "population": 14161084,
+    "year": 2017
+  },
+  {
+    "province": "Ontario",
+    "population": 14413055,
+    "year": 2018
+  },
+  {
+    "province": "Ontario",
+    "population": 14666727,
+    "year": 2019
+  },
+  {
+    "province": "Ontario",
+    "population": 14757582,
+    "year": 2020
+  },
+  {
+    "province": "Ontario",
+    "population": 14947417,
+    "year": 2021
+  },
+  {
+    "province": "Ontario",
+    "population": 15305369,
+    "year": 2022
+  },
+  {
+    "province": "Ontario",
+    "population": 15823956,
+    "year": 2023
+  },
+  {
+    "province": "Ontario",
+    "population": 16228152,
+    "year": 2024
+  },
+  {
+    "province": "Ontario",
+    "population": 16191372,
+    "year": 2025
+  },
+  {
+    "province": "Manitoba",
+    "population": 1253210,
+    "year": 2012
+  },
+  {
+    "province": "Manitoba",
+    "population": 1267105,
+    "year": 2013
+  },
+  {
+    "province": "Manitoba",
+    "population": 1281690,
+    "year": 2014
+  },
+  {
+    "province": "Manitoba",
+    "population": 1298120,
+    "year": 2015
+  },
+  {
+    "province": "Manitoba",
+    "population": 1319800,
+    "year": 2016
+  },
+  {
+    "province": "Manitoba",
+    "population": 1340426,
+    "year": 2017
+  },
+  {
+    "province": "Manitoba",
+    "population": 1357856,
+    "year": 2018
+  },
+  {
+    "province": "Manitoba",
+    "population": 1373884,
+    "year": 2019
+  },
+  {
+    "province": "Manitoba",
+    "population": 1381809,
+    "year": 2020
+  },
+  {
+    "province": "Manitoba",
+    "population": 1396656,
+    "year": 2021
+  },
+  {
+    "province": "Manitoba",
+    "population": 1424475,
+    "year": 2022
+  },
+  {
+    "province": "Manitoba",
+    "population": 1462439,
+    "year": 2023
+  },
+  {
+    "province": "Manitoba",
+    "population": 1500464,
+    "year": 2024
+  },
+  {
+    "province": "Manitoba",
+    "population": 1507057,
+    "year": 2025
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1088177,
+    "year": 2012
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1102832,
+    "year": 2013
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1115184,
+    "year": 2014
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1125588,
+    "year": 2015
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1139492,
+    "year": 2016
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1151044,
+    "year": 2017
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1159648,
+    "year": 2018
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1167271,
+    "year": 2019
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1165963,
+    "year": 2020
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1168934,
+    "year": 2021
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1188295,
+    "year": 2022
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1222152,
+    "year": 2023
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1256983,
+    "year": 2024
+  },
+  {
+    "province": "Saskatchewan",
+    "population": 1266234,
+    "year": 2025
+  },
+  {
+    "province": "Alberta",
+    "population": 3897746,
+    "year": 2012
+  },
+  {
+    "province": "Alberta",
+    "population": 4008421,
+    "year": 2013
+  },
+  {
+    "province": "Alberta",
+    "population": 4103702,
+    "year": 2014
+  },
+  {
+    "province": "Alberta",
+    "population": 4163048,
+    "year": 2015
+  },
+  {
+    "province": "Alberta",
+    "population": 4207139,
+    "year": 2016
+  },
+  {
+    "province": "Alberta",
+    "population": 4253530,
+    "year": 2017
+  },
+  {
+    "province": "Alberta",
+    "population": 4311439,
+    "year": 2018
+  },
+  {
+    "province": "Alberta",
+    "population": 4376860,
+    "year": 2019
+  },
+  {
+    "province": "Alberta",
+    "population": 4412013,
+    "year": 2020
+  },
+  {
+    "province": "Alberta",
+    "population": 4451129,
+    "year": 2021
+  },
+  {
+    "province": "Alberta",
+    "population": 4560275,
+    "year": 2022
+  },
+  {
+    "province": "Alberta",
+    "population": 4752173,
+    "year": 2023
+  },
+  {
+    "province": "Alberta",
+    "population": 4957075,
+    "year": 2024
+  },
+  {
+    "province": "Alberta",
+    "population": 5040871,
+    "year": 2025
+  },
+  {
+    "province": "British Columbia",
+    "population": 4594846,
+    "year": 2012
+  },
+  {
+    "province": "British Columbia",
+    "population": 4663919,
+    "year": 2013
+  },
+  {
+    "province": "British Columbia",
+    "population": 4743505,
+    "year": 2014
+  },
+  {
+    "province": "British Columbia",
+    "population": 4795547,
+    "year": 2015
+  },
+  {
+    "province": "British Columbia",
+    "population": 4886638,
+    "year": 2016
+  },
+  {
+    "province": "British Columbia",
+    "population": 4962706,
+    "year": 2017
+  },
+  {
+    "province": "British Columbia",
+    "population": 5052131,
+    "year": 2018
+  },
+  {
+    "province": "British Columbia",
+    "population": 5148047,
+    "year": 2019
+  },
+  {
+    "province": "British Columbia",
+    "population": 5173896,
+    "year": 2020
+  },
+  {
+    "province": "British Columbia",
+    "population": 5269491,
+    "year": 2021
+  },
+  {
+    "province": "British Columbia",
+    "population": 5406059,
+    "year": 2022
+  },
+  {
+    "province": "British Columbia",
+    "population": 5572694,
+    "year": 2023
+  },
+  {
+    "province": "British Columbia",
+    "population": 5696852,
+    "year": 2024
+  },
+  {
+    "province": "British Columbia",
+    "population": 5683201,
+    "year": 2025
+  },
+  {
+    "province": "Yukon",
+    "population": 36347,
+    "year": 2012
+  },
+  {
+    "province": "Yukon",
+    "population": 36384,
+    "year": 2013
+  },
+  {
+    "province": "Yukon",
+    "population": 37223,
+    "year": 2014
+  },
+  {
+    "province": "Yukon",
+    "population": 37730,
+    "year": 2015
+  },
+  {
+    "province": "Yukon",
+    "population": 38724,
+    "year": 2016
+  },
+  {
+    "province": "Yukon",
+    "population": 39705,
+    "year": 2017
+  },
+  {
+    "province": "Yukon",
+    "population": 40533,
+    "year": 2018
+  },
+  {
+    "province": "Yukon",
+    "population": 41460,
+    "year": 2019
+  },
+  {
+    "province": "Yukon",
+    "population": 42109,
+    "year": 2020
+  },
+  {
+    "province": "Yukon",
+    "population": 43129,
+    "year": 2021
+  },
+  {
+    "province": "Yukon",
+    "population": 44169,
+    "year": 2022
+  },
+  {
+    "province": "Yukon",
+    "population": 45898,
+    "year": 2023
+  },
+  {
+    "province": "Yukon",
+    "population": 47939,
+    "year": 2024
+  },
+  {
+    "province": "Yukon",
+    "population": 48261,
+    "year": 2025
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 43656,
+    "year": 2012
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 43727,
+    "year": 2013
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44031,
+    "year": 2014
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44443,
+    "year": 2015
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44471,
+    "year": 2016
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44825,
+    "year": 2017
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44487,
+    "year": 2018
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44512,
+    "year": 2019
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44395,
+    "year": 2020
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44573,
+    "year": 2021
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44559,
+    "year": 2022
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 44566,
+    "year": 2023
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 45520,
+    "year": 2024
+  },
+  {
+    "province": "Northwest Territories",
+    "population": 45848,
+    "year": 2025
+  },
+  {
+    "province": "Nunavut",
+    "population": 34830,
+    "year": 2012
+  },
+  {
+    "province": "Nunavut",
+    "population": 35536,
+    "year": 2013
+  },
+  {
+    "province": "Nunavut",
+    "population": 36100,
+    "year": 2014
+  },
+  {
+    "province": "Nunavut",
+    "population": 36602,
+    "year": 2015
+  },
+  {
+    "province": "Nunavut",
+    "population": 37084,
+    "year": 2016
+  },
+  {
+    "province": "Nunavut",
+    "population": 37829,
+    "year": 2017
+  },
+  {
+    "province": "Nunavut",
+    "population": 38487,
+    "year": 2018
+  },
+  {
+    "province": "Nunavut",
+    "population": 38893,
+    "year": 2019
+  },
+  {
+    "province": "Nunavut",
+    "population": 39581,
+    "year": 2020
+  },
+  {
+    "province": "Nunavut",
+    "population": 40245,
+    "year": 2021
+  },
+  {
+    "province": "Nunavut",
+    "population": 40677,
+    "year": 2022
+  },
+  {
+    "province": "Nunavut",
+    "population": 41089,
+    "year": 2023
+  },
+  {
+    "province": "Nunavut",
+    "population": 41486,
+    "year": 2024
+  },
+  {
+    "province": "Nunavut",
+    "population": 41919,
+    "year": 2025
+  }
+]
