@@ -72,3 +72,35 @@ export function getProvincesLatestYear(): ProvincePopulationData {
     .filter((d) => d.year === latestYear && d.province !== 'Canada')
     .sort((a, b) => b.population - a.population);
 }
+
+export function getPopulationByProvince(provinceName: string): ProvincePopulationData {
+    return getAllPopulation()
+      .filter((d) => d.province === provinceName)
+      .sort((a, b) => a.year - b.year);
+}
+
+export function getPopulationGrowthRates(): Map<string, number> {
+  const all = getAllPopulation().filter((d) => d.province !== 'Canada');
+  const years = getAvailableYears();
+  const firstYear = years[0];
+  const lastYear = years[years.length - 1];
+
+  const rates = new Map<string, number>();
+
+  const byProvince = new Map<string, { first: number; last: number }>();
+  all.forEach((d) => {
+    if (d.year === firstYear || d.year === lastYear) {
+      const entry = byProvince.get(d.province) ?? { first: 0, last: 0 };
+      if (d.year === firstYear) entry.first = d.population;
+      if (d.year === lastYear) entry.last = d.population;
+      byProvince.set(d.province, entry);
+    }
+  });
+
+  byProvince.forEach(({ first, last }, province) => {
+    if (first === 0) return;
+    rates.set(province, Math.round(((last - first) / first) * 1000) / 10);
+  });
+
+  return rates;
+}
