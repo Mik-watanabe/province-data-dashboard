@@ -40,16 +40,7 @@ export default function Home() {
     }));
 
   return (
-    <main className="mx-auto max-w-7xl px-3 py-4">
-      <header className="mb-4 flex items-baseline gap-3">
-        <h1 className="text-2xl font-bold">
-          <span className="text-accent">🍁</span> CanadaStats
-        </h1>
-        <p className="text-sm text-muted">
-          Population & housing data across Canada
-        </p>
-      </header>
-
+    <main className="mx-auto max-w-7xl px-4 py-5">
       {/* Summary cards */}
       <section className="mb-4 grid grid-cols-2 gap-3 md:grid-cols-4">
         <SummaryCard
@@ -83,7 +74,7 @@ export default function Home() {
 
       {/* Row 2: Housing price line chart (full width) */}
       <section className="mb-6">
-        <div className="rounded-lg border border-card-border bg-card-bg p-4">
+        <div className="rounded border border-card-border bg-card-bg p-4">
           <h2 className="mb-1 text-lg font-semibold">
             Housing Price Index Trend (2012–{housingYear})
           </h2>
@@ -99,7 +90,7 @@ export default function Home() {
         <h2 className="mb-3 text-lg font-semibold">
           Province & Territory Overview ({year})
         </h2>
-        <div className="overflow-x-auto rounded-lg border border-card-border">
+        <div className="overflow-x-auto rounded border border-card-border bg-card-bg">
           <table className="w-full text-left text-sm">
             <thead className="border-b border-card-border bg-card-bg">
               <tr>

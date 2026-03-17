@@ -26,13 +26,13 @@ export default function InteractiveSection({
       </div>
 
       <div className="lg:col-span-7 grid grid-cols-1 gap-4 md:grid-cols-2">
-        <div className="rounded-lg border border-card-border bg-card-bg p-3">
+        <div className="rounded border border-card-border bg-card-bg p-3">
           <h2 className="mb-1 text-sm font-semibold">
             Population by Province ({year})
           </h2>
           <PopulationBarChart data={provinces} highlightedProvince={hoveredProvince} />
         </div>
-        <div className="rounded-lg border border-card-border bg-card-bg p-3">
+        <div className="rounded border border-card-border bg-card-bg p-3">
           <h2 className="mb-1 text-sm font-semibold">
             Population vs Housing Growth
           </h2>

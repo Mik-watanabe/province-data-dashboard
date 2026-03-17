@@ -6,8 +6,10 @@
   --accent: #ff0000;
   --accent-light: #fff0f0;
   --card-border: #e5e7eb;
-  --card-bg: #f9fafb;
+  --card-bg: #ffffff;
   --muted: #6b7280;
+  --nav-bg: #1b2e4b;
+  --nav-fg: #ffffff;
 }
 
 @theme inline {
@@ -18,6 +20,8 @@
   --color-card-border: var(--card-border);
   --color-card-bg: var(--card-bg);
   --color-muted: var(--muted);
+  --color-nav-bg: var(--nav-bg);
+  --color-nav-fg: var(--nav-fg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

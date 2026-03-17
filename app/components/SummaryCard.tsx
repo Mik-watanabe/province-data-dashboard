@@ -12,7 +12,7 @@ export default function SummaryCard({
   comingSoon = false,
 }: SummaryCardProps) {
   return (
-    <div className="rounded-lg border border-card-border bg-card-bg p-5">
+    <div className="rounded border border-card-border bg-card-bg p-5">
       <p className="text-sm text-muted">{title}</p>
       {comingSoon ? (
         <p className="mt-2 text-lg text-muted italic">Coming Soon</p>

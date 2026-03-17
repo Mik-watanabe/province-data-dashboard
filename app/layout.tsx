@@ -27,6 +27,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="border-b border-card-border bg-nav-bg text-nav-fg">
+          <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+            <div className="flex items-center gap-2">
+              <span className="text-xl">🍁</span>
+              <span className="text-lg font-semibold tracking-tight">CanadaStats</span>
+            </div>
+            <p className="hidden text-sm text-nav-fg/60 sm:block">
+              Population & Housing Price Dashboard
+            </p>
+          </div>
+        </nav>
         {children}
       </body>
     </html>
