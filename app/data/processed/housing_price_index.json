@@ -1,0 +1,2182 @@
+[
+  {
+    "province": "Canada",
+    "year": 1981,
+    "index": 40.3
+  },
+  {
+    "province": "Canada",
+    "year": 1982,
+    "index": 37.9
+  },
+  {
+    "province": "Canada",
+    "year": 1983,
+    "index": 37.9
+  },
+  {
+    "province": "Canada",
+    "year": 1984,
+    "index": 37.9
+  },
+  {
+    "province": "Canada",
+    "year": 1985,
+    "index": 39.3
+  },
+  {
+    "province": "Canada",
+    "year": 1986,
+    "index": 44
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1986,
+    "index": 39.7
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1986,
+    "index": 51.5
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1986,
+    "index": 72.8
+  },
+  {
+    "province": "Quebec",
+    "year": 1986,
+    "index": 42.1
+  },
+  {
+    "province": "Ontario",
+    "year": 1986,
+    "index": 43.1
+  },
+  {
+    "province": "Manitoba",
+    "year": 1986,
+    "index": 36.7
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1986,
+    "index": 31.3
+  },
+  {
+    "province": "Alberta",
+    "year": 1986,
+    "index": 27.2
+  },
+  {
+    "province": "British Columbia",
+    "year": 1986,
+    "index": 67.1
+  },
+  {
+    "province": "Canada",
+    "year": 1987,
+    "index": 49.1
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1987,
+    "index": 41.7
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1987,
+    "index": 53.7
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1987,
+    "index": 76
+  },
+  {
+    "province": "Quebec",
+    "year": 1987,
+    "index": 47.9
+  },
+  {
+    "province": "Ontario",
+    "year": 1987,
+    "index": 49.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 1987,
+    "index": 38.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1987,
+    "index": 32.2
+  },
+  {
+    "province": "Alberta",
+    "year": 1987,
+    "index": 28.8
+  },
+  {
+    "province": "British Columbia",
+    "year": 1987,
+    "index": 70.7
+  },
+  {
+    "province": "Canada",
+    "year": 1988,
+    "index": 55.8
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1988,
+    "index": 42.9
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1988,
+    "index": 55.5
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1988,
+    "index": 78.6
+  },
+  {
+    "province": "Quebec",
+    "year": 1988,
+    "index": 51
+  },
+  {
+    "province": "Ontario",
+    "year": 1988,
+    "index": 59.5
+  },
+  {
+    "province": "Manitoba",
+    "year": 1988,
+    "index": 38.2
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1988,
+    "index": 32.5
+  },
+  {
+    "province": "Alberta",
+    "year": 1988,
+    "index": 30.7
+  },
+  {
+    "province": "British Columbia",
+    "year": 1988,
+    "index": 75.7
+  },
+  {
+    "province": "Canada",
+    "year": 1989,
+    "index": 61.1
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1989,
+    "index": 45.7
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1989,
+    "index": 55.7
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1989,
+    "index": 80.9
+  },
+  {
+    "province": "Quebec",
+    "year": 1989,
+    "index": 52.6
+  },
+  {
+    "province": "Ontario",
+    "year": 1989,
+    "index": 65.3
+  },
+  {
+    "province": "Manitoba",
+    "year": 1989,
+    "index": 38.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1989,
+    "index": 32.8
+  },
+  {
+    "province": "Alberta",
+    "year": 1989,
+    "index": 34.6
+  },
+  {
+    "province": "British Columbia",
+    "year": 1989,
+    "index": 90
+  },
+  {
+    "province": "Canada",
+    "year": 1990,
+    "index": 57.8
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1990,
+    "index": 46.7
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1990,
+    "index": 55.7
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1990,
+    "index": 82.1
+  },
+  {
+    "province": "Quebec",
+    "year": 1990,
+    "index": 53.7
+  },
+  {
+    "province": "Ontario",
+    "year": 1990,
+    "index": 59.8
+  },
+  {
+    "province": "Manitoba",
+    "year": 1990,
+    "index": 39
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1990,
+    "index": 33.1
+  },
+  {
+    "province": "Alberta",
+    "year": 1990,
+    "index": 36.6
+  },
+  {
+    "province": "British Columbia",
+    "year": 1990,
+    "index": 82.1
+  },
+  {
+    "province": "Canada",
+    "year": 1991,
+    "index": 55.9
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1991,
+    "index": 49.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1991,
+    "index": 55.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1991,
+    "index": 82.6
+  },
+  {
+    "province": "Quebec",
+    "year": 1991,
+    "index": 53.9
+  },
+  {
+    "province": "Ontario",
+    "year": 1991,
+    "index": 55.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 1991,
+    "index": 38.7
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1991,
+    "index": 33.5
+  },
+  {
+    "province": "Alberta",
+    "year": 1991,
+    "index": 36.6
+  },
+  {
+    "province": "British Columbia",
+    "year": 1991,
+    "index": 84.9
+  },
+  {
+    "province": "Canada",
+    "year": 1992,
+    "index": 56.3
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1992,
+    "index": 49.8
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1992,
+    "index": 56.6
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1992,
+    "index": 83.3
+  },
+  {
+    "province": "Quebec",
+    "year": 1992,
+    "index": 53.9
+  },
+  {
+    "province": "Ontario",
+    "year": 1992,
+    "index": 54
+  },
+  {
+    "province": "Manitoba",
+    "year": 1992,
+    "index": 38.9
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1992,
+    "index": 34.7
+  },
+  {
+    "province": "Alberta",
+    "year": 1992,
+    "index": 37.2
+  },
+  {
+    "province": "British Columbia",
+    "year": 1992,
+    "index": 93
+  },
+  {
+    "province": "Canada",
+    "year": 1993,
+    "index": 56.9
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1993,
+    "index": 49.9
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1993,
+    "index": 58.7
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1993,
+    "index": 83.1
+  },
+  {
+    "province": "Quebec",
+    "year": 1993,
+    "index": 54.6
+  },
+  {
+    "province": "Ontario",
+    "year": 1993,
+    "index": 53.4
+  },
+  {
+    "province": "Manitoba",
+    "year": 1993,
+    "index": 40.4
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1993,
+    "index": 36.3
+  },
+  {
+    "province": "Alberta",
+    "year": 1993,
+    "index": 38.3
+  },
+  {
+    "province": "British Columbia",
+    "year": 1993,
+    "index": 97.2
+  },
+  {
+    "province": "Canada",
+    "year": 1994,
+    "index": 56.8
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1994,
+    "index": 50.1
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1994,
+    "index": 60.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1994,
+    "index": 83.6
+  },
+  {
+    "province": "Quebec",
+    "year": 1994,
+    "index": 54.7
+  },
+  {
+    "province": "Ontario",
+    "year": 1994,
+    "index": 53.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 1994,
+    "index": 41.8
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1994,
+    "index": 36.6
+  },
+  {
+    "province": "Alberta",
+    "year": 1994,
+    "index": 38.7
+  },
+  {
+    "province": "British Columbia",
+    "year": 1994,
+    "index": 94
+  },
+  {
+    "province": "Canada",
+    "year": 1995,
+    "index": 55.7
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1995,
+    "index": 49.8
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 1995,
+    "index": 82.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1995,
+    "index": 61.8
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1995,
+    "index": 82.8
+  },
+  {
+    "province": "Quebec",
+    "year": 1995,
+    "index": 54.8
+  },
+  {
+    "province": "Ontario",
+    "year": 1995,
+    "index": 53.2
+  },
+  {
+    "province": "Manitoba",
+    "year": 1995,
+    "index": 42.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1995,
+    "index": 37.6
+  },
+  {
+    "province": "Alberta",
+    "year": 1995,
+    "index": 38.6
+  },
+  {
+    "province": "British Columbia",
+    "year": 1995,
+    "index": 87.7
+  },
+  {
+    "province": "Canada",
+    "year": 1996,
+    "index": 55.2
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1996,
+    "index": 49.3
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 1996,
+    "index": 82.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1996,
+    "index": 61.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1996,
+    "index": 82.3
+  },
+  {
+    "province": "Quebec",
+    "year": 1996,
+    "index": 54.9
+  },
+  {
+    "province": "Ontario",
+    "year": 1996,
+    "index": 53
+  },
+  {
+    "province": "Manitoba",
+    "year": 1996,
+    "index": 43
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1996,
+    "index": 38.4
+  },
+  {
+    "province": "Alberta",
+    "year": 1996,
+    "index": 39.8
+  },
+  {
+    "province": "British Columbia",
+    "year": 1996,
+    "index": 83.5
+  },
+  {
+    "province": "Canada",
+    "year": 1997,
+    "index": 55.9
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1997,
+    "index": 48.1
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 1997,
+    "index": 81
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1997,
+    "index": 60.2
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1997,
+    "index": 78.7
+  },
+  {
+    "province": "Quebec",
+    "year": 1997,
+    "index": 54.7
+  },
+  {
+    "province": "Ontario",
+    "year": 1997,
+    "index": 54.7
+  },
+  {
+    "province": "Manitoba",
+    "year": 1997,
+    "index": 43.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1997,
+    "index": 39.6
+  },
+  {
+    "province": "Alberta",
+    "year": 1997,
+    "index": 42
+  },
+  {
+    "province": "British Columbia",
+    "year": 1997,
+    "index": 80.8
+  },
+  {
+    "province": "Canada",
+    "year": 1998,
+    "index": 56.3
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1998,
+    "index": 47.4
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 1998,
+    "index": 83.8
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1998,
+    "index": 61.1
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1998,
+    "index": 77.7
+  },
+  {
+    "province": "Quebec",
+    "year": 1998,
+    "index": 54.9
+  },
+  {
+    "province": "Ontario",
+    "year": 1998,
+    "index": 55.7
+  },
+  {
+    "province": "Manitoba",
+    "year": 1998,
+    "index": 43.6
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1998,
+    "index": 40.4
+  },
+  {
+    "province": "Alberta",
+    "year": 1998,
+    "index": 44.4
+  },
+  {
+    "province": "British Columbia",
+    "year": 1998,
+    "index": 76.3
+  },
+  {
+    "province": "Canada",
+    "year": 1999,
+    "index": 57.2
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 1999,
+    "index": 47.8
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 1999,
+    "index": 84.2
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 1999,
+    "index": 63.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 1999,
+    "index": 78.8
+  },
+  {
+    "province": "Quebec",
+    "year": 1999,
+    "index": 56.7
+  },
+  {
+    "province": "Ontario",
+    "year": 1999,
+    "index": 57.1
+  },
+  {
+    "province": "Manitoba",
+    "year": 1999,
+    "index": 45
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 1999,
+    "index": 41.4
+  },
+  {
+    "province": "Alberta",
+    "year": 1999,
+    "index": 45.9
+  },
+  {
+    "province": "British Columbia",
+    "year": 1999,
+    "index": 74.4
+  },
+  {
+    "province": "Canada",
+    "year": 2000,
+    "index": 58.6
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2000,
+    "index": 49.5
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2000,
+    "index": 85.4
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2000,
+    "index": 65.8
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2000,
+    "index": 77.8
+  },
+  {
+    "province": "Quebec",
+    "year": 2000,
+    "index": 59
+  },
+  {
+    "province": "Ontario",
+    "year": 2000,
+    "index": 58.9
+  },
+  {
+    "province": "Manitoba",
+    "year": 2000,
+    "index": 45.8
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2000,
+    "index": 42.4
+  },
+  {
+    "province": "Alberta",
+    "year": 2000,
+    "index": 46.6
+  },
+  {
+    "province": "British Columbia",
+    "year": 2000,
+    "index": 73.6
+  },
+  {
+    "province": "Canada",
+    "year": 2001,
+    "index": 60.2
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2001,
+    "index": 50.6
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2001,
+    "index": 85.9
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2001,
+    "index": 67.6
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2001,
+    "index": 78.7
+  },
+  {
+    "province": "Quebec",
+    "year": 2001,
+    "index": 61.4
+  },
+  {
+    "province": "Ontario",
+    "year": 2001,
+    "index": 60.3
+  },
+  {
+    "province": "Manitoba",
+    "year": 2001,
+    "index": 46.7
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2001,
+    "index": 43.4
+  },
+  {
+    "province": "Alberta",
+    "year": 2001,
+    "index": 48.1
+  },
+  {
+    "province": "British Columbia",
+    "year": 2001,
+    "index": 75.4
+  },
+  {
+    "province": "Canada",
+    "year": 2002,
+    "index": 63.3
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2002,
+    "index": 53.4
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2002,
+    "index": 86.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2002,
+    "index": 70
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2002,
+    "index": 80.3
+  },
+  {
+    "province": "Quebec",
+    "year": 2002,
+    "index": 66.5
+  },
+  {
+    "province": "Ontario",
+    "year": 2002,
+    "index": 63.2
+  },
+  {
+    "province": "Manitoba",
+    "year": 2002,
+    "index": 48.1
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2002,
+    "index": 44.7
+  },
+  {
+    "province": "Alberta",
+    "year": 2002,
+    "index": 51.5
+  },
+  {
+    "province": "British Columbia",
+    "year": 2002,
+    "index": 77.2
+  },
+  {
+    "province": "Canada",
+    "year": 2003,
+    "index": 66.5
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2003,
+    "index": 55.5
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2003,
+    "index": 88.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2003,
+    "index": 73.2
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2003,
+    "index": 82.7
+  },
+  {
+    "province": "Quebec",
+    "year": 2003,
+    "index": 70.9
+  },
+  {
+    "province": "Ontario",
+    "year": 2003,
+    "index": 66.3
+  },
+  {
+    "province": "Manitoba",
+    "year": 2003,
+    "index": 50.2
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2003,
+    "index": 47
+  },
+  {
+    "province": "Alberta",
+    "year": 2003,
+    "index": 54.4
+  },
+  {
+    "province": "British Columbia",
+    "year": 2003,
+    "index": 80.6
+  },
+  {
+    "province": "Canada",
+    "year": 2004,
+    "index": 69.9
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2004,
+    "index": 59.2
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2004,
+    "index": 91.7
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2004,
+    "index": 73.6
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2004,
+    "index": 85.4
+  },
+  {
+    "province": "Quebec",
+    "year": 2004,
+    "index": 75.2
+  },
+  {
+    "province": "Ontario",
+    "year": 2004,
+    "index": 69.9
+  },
+  {
+    "province": "Manitoba",
+    "year": 2004,
+    "index": 54.2
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2004,
+    "index": 50.2
+  },
+  {
+    "province": "Alberta",
+    "year": 2004,
+    "index": 56.5
+  },
+  {
+    "province": "British Columbia",
+    "year": 2004,
+    "index": 85
+  },
+  {
+    "province": "Canada",
+    "year": 2005,
+    "index": 74.1
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2005,
+    "index": 61.5
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2005,
+    "index": 95.1
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2005,
+    "index": 78.4
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2005,
+    "index": 88
+  },
+  {
+    "province": "Quebec",
+    "year": 2005,
+    "index": 78.2
+  },
+  {
+    "province": "Ontario",
+    "year": 2005,
+    "index": 72.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 2005,
+    "index": 59.6
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2005,
+    "index": 52.4
+  },
+  {
+    "province": "Alberta",
+    "year": 2005,
+    "index": 65.3
+  },
+  {
+    "province": "British Columbia",
+    "year": 2005,
+    "index": 89.2
+  },
+  {
+    "province": "Canada",
+    "year": 2006,
+    "index": 82
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2006,
+    "index": 64.1
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2006,
+    "index": 97.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2006,
+    "index": 79.4
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2006,
+    "index": 90.5
+  },
+  {
+    "province": "Quebec",
+    "year": 2006,
+    "index": 81.5
+  },
+  {
+    "province": "Ontario",
+    "year": 2006,
+    "index": 75.1
+  },
+  {
+    "province": "Manitoba",
+    "year": 2006,
+    "index": 64.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2006,
+    "index": 60
+  },
+  {
+    "province": "Alberta",
+    "year": 2006,
+    "index": 92.7
+  },
+  {
+    "province": "British Columbia",
+    "year": 2006,
+    "index": 95.7
+  },
+  {
+    "province": "Canada",
+    "year": 2007,
+    "index": 87.1
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2007,
+    "index": 69.2
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2007,
+    "index": 98.4
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2007,
+    "index": 87.6
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2007,
+    "index": 91.8
+  },
+  {
+    "province": "Quebec",
+    "year": 2007,
+    "index": 85.2
+  },
+  {
+    "province": "Ontario",
+    "year": 2007,
+    "index": 77.3
+  },
+  {
+    "province": "Manitoba",
+    "year": 2007,
+    "index": 73.9
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2007,
+    "index": 81.7
+  },
+  {
+    "province": "Alberta",
+    "year": 2007,
+    "index": 104.3
+  },
+  {
+    "province": "British Columbia",
+    "year": 2007,
+    "index": 101.4
+  },
+  {
+    "province": "Canada",
+    "year": 2008,
+    "index": 87.5
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2008,
+    "index": 86
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2008,
+    "index": 98.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2008,
+    "index": 90.8
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2008,
+    "index": 94.3
+  },
+  {
+    "province": "Quebec",
+    "year": 2008,
+    "index": 89.1
+  },
+  {
+    "province": "Ontario",
+    "year": 2008,
+    "index": 79.1
+  },
+  {
+    "province": "Manitoba",
+    "year": 2008,
+    "index": 78.2
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2008,
+    "index": 90.1
+  },
+  {
+    "province": "Alberta",
+    "year": 2008,
+    "index": 97.8
+  },
+  {
+    "province": "British Columbia",
+    "year": 2008,
+    "index": 99
+  },
+  {
+    "province": "Canada",
+    "year": 2009,
+    "index": 86.7
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2009,
+    "index": 89.9
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2009,
+    "index": 99.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2009,
+    "index": 91.3
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2009,
+    "index": 96.5
+  },
+  {
+    "province": "Quebec",
+    "year": 2009,
+    "index": 91.8
+  },
+  {
+    "province": "Ontario",
+    "year": 2009,
+    "index": 79.9
+  },
+  {
+    "province": "Manitoba",
+    "year": 2009,
+    "index": 79.4
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2009,
+    "index": 89.9
+  },
+  {
+    "province": "Alberta",
+    "year": 2009,
+    "index": 91.7
+  },
+  {
+    "province": "British Columbia",
+    "year": 2009,
+    "index": 96.1
+  },
+  {
+    "province": "Canada",
+    "year": 2010,
+    "index": 88.4
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2010,
+    "index": 97
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2010,
+    "index": 97.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2010,
+    "index": 93.1
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2010,
+    "index": 98.2
+  },
+  {
+    "province": "Quebec",
+    "year": 2010,
+    "index": 94.6
+  },
+  {
+    "province": "Ontario",
+    "year": 2010,
+    "index": 81.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 2010,
+    "index": 84.1
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2010,
+    "index": 94.2
+  },
+  {
+    "province": "Alberta",
+    "year": 2010,
+    "index": 92.5
+  },
+  {
+    "province": "British Columbia",
+    "year": 2010,
+    "index": 96.5
+  },
+  {
+    "province": "Canada",
+    "year": 2011,
+    "index": 90.7
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2011,
+    "index": 96.9
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2011,
+    "index": 100.9
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2011,
+    "index": 93.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2011,
+    "index": 98.4
+  },
+  {
+    "province": "Quebec",
+    "year": 2011,
+    "index": 96.8
+  },
+  {
+    "province": "Ontario",
+    "year": 2011,
+    "index": 85.4
+  },
+  {
+    "province": "Manitoba",
+    "year": 2011,
+    "index": 88
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2011,
+    "index": 97
+  },
+  {
+    "province": "Alberta",
+    "year": 2011,
+    "index": 93.1
+  },
+  {
+    "province": "British Columbia",
+    "year": 2011,
+    "index": 96.1
+  },
+  {
+    "province": "Canada",
+    "year": 2012,
+    "index": 92.7
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2012,
+    "index": 97.5
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2012,
+    "index": 99.2
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2012,
+    "index": 96.5
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2012,
+    "index": 98.1
+  },
+  {
+    "province": "Quebec",
+    "year": 2012,
+    "index": 98.2
+  },
+  {
+    "province": "Ontario",
+    "year": 2012,
+    "index": 88.4
+  },
+  {
+    "province": "Manitoba",
+    "year": 2012,
+    "index": 92.4
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2012,
+    "index": 99.1
+  },
+  {
+    "province": "Alberta",
+    "year": 2012,
+    "index": 94.9
+  },
+  {
+    "province": "British Columbia",
+    "year": 2012,
+    "index": 95.4
+  },
+  {
+    "province": "Canada",
+    "year": 2013,
+    "index": 93.9
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2013,
+    "index": 99.6
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2013,
+    "index": 100.8
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2013,
+    "index": 98.1
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2013,
+    "index": 98.4
+  },
+  {
+    "province": "Quebec",
+    "year": 2013,
+    "index": 98.7
+  },
+  {
+    "province": "Ontario",
+    "year": 2013,
+    "index": 89.4
+  },
+  {
+    "province": "Manitoba",
+    "year": 2013,
+    "index": 95.1
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2013,
+    "index": 101.6
+  },
+  {
+    "province": "Alberta",
+    "year": 2013,
+    "index": 97.6
+  },
+  {
+    "province": "British Columbia",
+    "year": 2013,
+    "index": 94.3
+  },
+  {
+    "province": "Canada",
+    "year": 2014,
+    "index": 95.5
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2014,
+    "index": 99.9
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2014,
+    "index": 99.3
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2014,
+    "index": 98.4
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2014,
+    "index": 98
+  },
+  {
+    "province": "Quebec",
+    "year": 2014,
+    "index": 98.7
+  },
+  {
+    "province": "Ontario",
+    "year": 2014,
+    "index": 91.2
+  },
+  {
+    "province": "Manitoba",
+    "year": 2014,
+    "index": 96
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2014,
+    "index": 102.4
+  },
+  {
+    "province": "Alberta",
+    "year": 2014,
+    "index": 101.1
+  },
+  {
+    "province": "British Columbia",
+    "year": 2014,
+    "index": 93.8
+  },
+  {
+    "province": "Canada",
+    "year": 2015,
+    "index": 97
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2015,
+    "index": 100.3
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2015,
+    "index": 99.1
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2015,
+    "index": 98.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2015,
+    "index": 98.4
+  },
+  {
+    "province": "Quebec",
+    "year": 2015,
+    "index": 99.4
+  },
+  {
+    "province": "Ontario",
+    "year": 2015,
+    "index": 94.1
+  },
+  {
+    "province": "Manitoba",
+    "year": 2015,
+    "index": 97.7
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2015,
+    "index": 101.1
+  },
+  {
+    "province": "Alberta",
+    "year": 2015,
+    "index": 100.7
+  },
+  {
+    "province": "British Columbia",
+    "year": 2015,
+    "index": 95.9
+  },
+  {
+    "province": "Canada",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Quebec",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Ontario",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Manitoba",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Alberta",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "British Columbia",
+    "year": 2016,
+    "index": 100
+  },
+  {
+    "province": "Canada",
+    "year": 2017,
+    "index": 103.3
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2017,
+    "index": 99
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2017,
+    "index": 100.3
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2017,
+    "index": 101
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2017,
+    "index": 101
+  },
+  {
+    "province": "Quebec",
+    "year": 2017,
+    "index": 101.1
+  },
+  {
+    "province": "Ontario",
+    "year": 2017,
+    "index": 104.5
+  },
+  {
+    "province": "Manitoba",
+    "year": 2017,
+    "index": 103.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2017,
+    "index": 99.1
+  },
+  {
+    "province": "Alberta",
+    "year": 2017,
+    "index": 100.1
+  },
+  {
+    "province": "British Columbia",
+    "year": 2017,
+    "index": 107.8
+  },
+  {
+    "province": "Canada",
+    "year": 2018,
+    "index": 103.3
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2018,
+    "index": 98.1
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2018,
+    "index": 100.1
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2018,
+    "index": 101.6
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2018,
+    "index": 100.9
+  },
+  {
+    "province": "Quebec",
+    "year": 2018,
+    "index": 103.5
+  },
+  {
+    "province": "Ontario",
+    "year": 2018,
+    "index": 104.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 2018,
+    "index": 104.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2018,
+    "index": 97.7
+  },
+  {
+    "province": "Alberta",
+    "year": 2018,
+    "index": 99.4
+  },
+  {
+    "province": "British Columbia",
+    "year": 2018,
+    "index": 107.7
+  },
+  {
+    "province": "Canada",
+    "year": 2019,
+    "index": 103.4
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2019,
+    "index": 97.4
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2019,
+    "index": 102
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2019,
+    "index": 102.5
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2019,
+    "index": 102.7
+  },
+  {
+    "province": "Quebec",
+    "year": 2019,
+    "index": 108.6
+  },
+  {
+    "province": "Ontario",
+    "year": 2019,
+    "index": 105.5
+  },
+  {
+    "province": "Manitoba",
+    "year": 2019,
+    "index": 105.1
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2019,
+    "index": 96.2
+  },
+  {
+    "province": "Alberta",
+    "year": 2019,
+    "index": 97.2
+  },
+  {
+    "province": "British Columbia",
+    "year": 2019,
+    "index": 105.7
+  },
+  {
+    "province": "Canada",
+    "year": 2020,
+    "index": 108.2
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2020,
+    "index": 100.7
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2020,
+    "index": 106.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2020,
+    "index": 110.1
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2020,
+    "index": 104.2
+  },
+  {
+    "province": "Quebec",
+    "year": 2020,
+    "index": 117.5
+  },
+  {
+    "province": "Ontario",
+    "year": 2020,
+    "index": 110.8
+  },
+  {
+    "province": "Manitoba",
+    "year": 2020,
+    "index": 109.1
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2020,
+    "index": 95.5
+  },
+  {
+    "province": "Alberta",
+    "year": 2020,
+    "index": 97.7
+  },
+  {
+    "province": "British Columbia",
+    "year": 2020,
+    "index": 111.9
+  },
+  {
+    "province": "Canada",
+    "year": 2021,
+    "index": 120.8
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2021,
+    "index": 103.5
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2021,
+    "index": 119.5
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2021,
+    "index": 117.8
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2021,
+    "index": 115.5
+  },
+  {
+    "province": "Quebec",
+    "year": 2021,
+    "index": 135.3
+  },
+  {
+    "province": "Ontario",
+    "year": 2021,
+    "index": 124.4
+  },
+  {
+    "province": "Manitoba",
+    "year": 2021,
+    "index": 133.3
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2021,
+    "index": 103.3
+  },
+  {
+    "province": "Alberta",
+    "year": 2021,
+    "index": 106.8
+  },
+  {
+    "province": "British Columbia",
+    "year": 2021,
+    "index": 124.1
+  },
+  {
+    "province": "Canada",
+    "year": 2022,
+    "index": 125.5
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2022,
+    "index": 105.6
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2022,
+    "index": 122.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2022,
+    "index": 122
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2022,
+    "index": 119.5
+  },
+  {
+    "province": "Quebec",
+    "year": 2022,
+    "index": 141.7
+  },
+  {
+    "province": "Ontario",
+    "year": 2022,
+    "index": 127.3
+  },
+  {
+    "province": "Manitoba",
+    "year": 2022,
+    "index": 142.2
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2022,
+    "index": 106.2
+  },
+  {
+    "province": "Alberta",
+    "year": 2022,
+    "index": 117.4
+  },
+  {
+    "province": "British Columbia",
+    "year": 2022,
+    "index": 127.6
+  },
+  {
+    "province": "Canada",
+    "year": 2023,
+    "index": 124.4
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2023,
+    "index": 105.8
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2023,
+    "index": 122.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2023,
+    "index": 119.9
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2023,
+    "index": 119.2
+  },
+  {
+    "province": "Quebec",
+    "year": 2023,
+    "index": 141.8
+  },
+  {
+    "province": "Ontario",
+    "year": 2023,
+    "index": 125.1
+  },
+  {
+    "province": "Manitoba",
+    "year": 2023,
+    "index": 140.9
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2023,
+    "index": 103.7
+  },
+  {
+    "province": "Alberta",
+    "year": 2023,
+    "index": 117.8
+  },
+  {
+    "province": "British Columbia",
+    "year": 2023,
+    "index": 127.3
+  },
+  {
+    "province": "Canada",
+    "year": 2024,
+    "index": 124.5
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2024,
+    "index": 107.1
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2024,
+    "index": 122.6
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2024,
+    "index": 121.7
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2024,
+    "index": 120.7
+  },
+  {
+    "province": "Quebec",
+    "year": 2024,
+    "index": 144.1
+  },
+  {
+    "province": "Ontario",
+    "year": 2024,
+    "index": 123.6
+  },
+  {
+    "province": "Manitoba",
+    "year": 2024,
+    "index": 140.5
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2024,
+    "index": 105.9
+  },
+  {
+    "province": "Alberta",
+    "year": 2024,
+    "index": 122
+  },
+  {
+    "province": "British Columbia",
+    "year": 2024,
+    "index": 126.6
+  },
+  {
+    "province": "Canada",
+    "year": 2025,
+    "index": 122
+  },
+  {
+    "province": "Newfoundland and Labrador",
+    "year": 2025,
+    "index": 109.8
+  },
+  {
+    "province": "Prince Edward Island",
+    "year": 2025,
+    "index": 123.7
+  },
+  {
+    "province": "Nova Scotia",
+    "year": 2025,
+    "index": 127.5
+  },
+  {
+    "province": "New Brunswick",
+    "year": 2025,
+    "index": 120.7
+  },
+  {
+    "province": "Quebec",
+    "year": 2025,
+    "index": 149.1
+  },
+  {
+    "province": "Ontario",
+    "year": 2025,
+    "index": 120
+  },
+  {
+    "province": "Manitoba",
+    "year": 2025,
+    "index": 145.4
+  },
+  {
+    "province": "Saskatchewan",
+    "year": 2025,
+    "index": 110.1
+  },
+  {
+    "province": "Alberta",
+    "year": 2025,
+    "index": 118.5
+  },
+  {
+    "province": "British Columbia",
+    "year": 2025,
+    "index": 124.6
+  }
+]
