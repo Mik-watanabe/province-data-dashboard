@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,12 @@ export default function RootLayout({
         <nav className="border-b border-card-border bg-nav-bg text-nav-fg">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
             <div className="flex items-center gap-2">
-              <span className="text-xl">🍁</span>
-              <span className="text-lg font-semibold tracking-tight">
-                CanadaStats
-              </span>
+              <Link href="/" aria-label="Go to home page">
+                <span className="text-xl mr-2">🍁</span>
+                <span className="text-lg font-semibold tracking-tight">
+                  CanadaStats
+                </span>
+              </Link>
             </div>
             <p className="hidden text-sm text-nav-fg/60 sm:block">
               Population & Housing Price Dashboard
@@ -84,7 +87,7 @@ export default function RootLayout({
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex text-nav-fg/60 transition-colors hover:text-nav-fg"
-                    aria-label="GitHub"
+                    aria-label="Visit Miku Watanabe's GitHub profile in a new tab"
                   >
                     <svg
                       className="h-5 w-5"
@@ -103,7 +106,7 @@ export default function RootLayout({
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group inline-flex text-nav-fg/60 transition-colors"
-                    aria-label="LinkedIn"
+                    aria-label="Visit Miku Watanabe's LinkedIn profile in a new tab"
                   >
                     <svg className="h-5 w-5" viewBox="0 0 128 128">
                       <path

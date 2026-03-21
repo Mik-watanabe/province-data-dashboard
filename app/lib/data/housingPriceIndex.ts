@@ -1,10 +1,16 @@
-import housingPriceIndexData from '@/app/data/processed/housing_price_index.json';
-import { HousingPriceIndexData } from '@/app/scripts/types';
+import housingPriceIndexData from "@/app/data/processed/housing_price_index.json";
+import { HousingPriceIndexData } from "@/app/scripts/types";
 
 const BASE_YEAR = 2012;
 
 export function getAllHousingPriceIndex(): HousingPriceIndexData {
   return housingPriceIndexData as HousingPriceIndexData;
+}
+
+export function getHousingPriceIndexByProvince(
+  provinceName: string,
+): HousingPriceIndexData {
+  return housingPriceIndexData.filter((d) => d.province === provinceName);
 }
 
 export function getAvailableYears(): number[] {
@@ -23,7 +29,7 @@ export function getLatestYearCanadaIndex(): {
 } {
   const year = getLatestYear();
   const record = getAllHousingPriceIndex().find(
-    (d) => d.province === 'Canada' && d.year === year,
+    (d) => d.province === "Canada" && d.year === year,
   );
   return { index: record?.index ?? 0, year };
 }
@@ -31,24 +37,25 @@ export function getLatestYearCanadaIndex(): {
 export function getProvincesLatestYear(): HousingPriceIndexData {
   const year = getLatestYear();
   return getAllHousingPriceIndex()
-    .filter((d) => d.province !== 'Canada' && d.year === year)
+    .filter((d) => d.province !== "Canada" && d.year === year)
     .sort((a, b) => b.index - a.index);
 }
 
-function getGrowthProvince(
-  type: 'highest' | 'lowest',
-): { province: string; growthRate: number } {
+function getGrowthProvince(type: "highest" | "lowest"): {
+  province: string;
+  growthRate: number;
+} {
   const data = getAllHousingPriceIndex();
   const latest = getLatestYear();
 
   const provinces = [
     ...new Set(
-      data.filter((d) => d.province !== 'Canada').map((d) => d.province),
+      data.filter((d) => d.province !== "Canada").map((d) => d.province),
     ),
   ];
 
-  let bestGrowth = type === 'highest' ? -Infinity : Infinity;
-  let bestProvince = '';
+  let bestGrowth = type === "highest" ? -Infinity : Infinity;
+  let bestProvince = "";
 
   for (const province of provinces) {
     const latestIndex = data.find(
@@ -60,9 +67,9 @@ function getGrowthProvince(
 
     if (!latestIndex || !baseIndex || baseIndex === 0) continue;
 
-    const rate = ((latestIndex / baseIndex) - 1) * 100;
+    const rate = (latestIndex / baseIndex - 1) * 100;
     const shouldReplace =
-      type === 'highest' ? rate > bestGrowth : rate < bestGrowth;
+      type === "highest" ? rate > bestGrowth : rate < bestGrowth;
 
     if (shouldReplace) {
       bestGrowth = rate;
@@ -77,11 +84,11 @@ function getGrowthProvince(
 }
 
 export function getHighestGrowthProvince() {
-  return getGrowthProvince('highest');
+  return getGrowthProvince("highest");
 }
 
 export function getLowestGrowthProvince() {
-  return getGrowthProvince('lowest');
+  return getGrowthProvince("lowest");
 }
 
 export type ProvinceTimeSeries = {
@@ -96,7 +103,7 @@ export function getProvincesTimeSeries(): ProvinceTimeSeries[] {
 
   const provinces = [
     ...new Set(
-      data.filter((d) => d.province !== 'Canada').map((d) => d.province),
+      data.filter((d) => d.province !== "Canada").map((d) => d.province),
     ),
   ];
 
@@ -114,9 +121,36 @@ export function getProvincesTimeSeries(): ProvinceTimeSeries[] {
       const first = series[0]?.index ?? 0;
       const last = series[series.length - 1]?.index ?? 0;
       const growthRate =
-        first > 0 ? Math.round(((last / first) - 1) * 1000) / 10 : 0;
+        first > 0 ? Math.round((last / first - 1) * 1000) / 10 : 0;
 
       return { province, series, growthRate };
     })
     .sort((a, b) => b.growthRate - a.growthRate);
+}
+
+export function getTimeSeriesByProvince(
+  provinceName: string,
+): ProvinceTimeSeries {
+  const data = getHousingPriceIndexByProvince(provinceName);
+
+  const years = getAvailableYears().filter((y) => y >= BASE_YEAR);
+
+  const series = years
+  .map((year) => {
+    const record = data.find(
+      (d) => d.province === provinceName && d.year === year,
+    );
+    return record ? { year, index: record.index } : null;
+  }).filter((d): d is { year: number; index: number } => d !== null);
+  
+  
+  return {
+    province: provinceName,
+    series,
+    growthRate: (() => {
+      const first = series[0]?.index ?? 0;
+      const last = series[series.length - 1]?.index ?? 0;
+      return first > 0 ? Math.round((last / first - 1) * 1000) / 10 : 0;
+    })(),
+  };
 }

@@ -1,5 +1,8 @@
-import populationData from '@/app/data/processed/province_population.json';
-import { ProvincePopulation, ProvincePopulationData } from '@/app/scripts/types';
+import populationData from "@/app/data/processed/province_population.json";
+import {
+  ProvincePopulation,
+  ProvincePopulationData,
+} from "@/app/scripts/types";
 
 export function getAllPopulation(): ProvincePopulationData {
   return populationData as ProvincePopulationData;
@@ -21,7 +24,7 @@ export function getLatestYearCanadaPopulation(): {
   const years = getAvailableYears();
   const latestYear = years[years.length - 1];
   const canada = getAllPopulation().find(
-    (d) => d.province === 'Canada' && d.year === latestYear,
+    (d) => d.province === "Canada" && d.year === latestYear,
   );
 
   return {
@@ -34,7 +37,7 @@ export function getFastestGrowthProvince(): {
   province: string;
   growthRate: number;
 } {
-  const all = getAllPopulation().filter((d) => d.province !== 'Canada');
+  const all = getAllPopulation().filter((d) => d.province !== "Canada");
   const years = getAvailableYears();
   const firstYear = years[0];
   const lastYear = years[years.length - 1];
@@ -50,7 +53,7 @@ export function getFastestGrowthProvince(): {
     }
   });
 
-  let bestProvince = '';
+  let bestProvince = "";
   let bestRate = -Infinity;
 
   byProvince.forEach(({ first, last }, province) => {
@@ -69,18 +72,20 @@ export function getProvincesLatestYear(): ProvincePopulationData {
   const years = getAvailableYears();
   const latestYear = years[years.length - 1];
   return getAllPopulation()
-    .filter((d) => d.year === latestYear && d.province !== 'Canada')
+    .filter((d) => d.year === latestYear && d.province !== "Canada")
     .sort((a, b) => b.population - a.population);
 }
 
-export function getPopulationByProvince(provinceName: string): ProvincePopulationData {
-    return getAllPopulation()
-      .filter((d) => d.province === provinceName)
-      .sort((a, b) => a.year - b.year);
+export function getPopulationByProvince(
+  provinceName: string,
+): ProvincePopulationData {
+  return getAllPopulation()
+    .filter((d) => d.province === provinceName)
+    .sort((a, b) => a.year - b.year);
 }
 
 export function getPopulationGrowthRates(): Map<string, number> {
-  const all = getAllPopulation().filter((d) => d.province !== 'Canada');
+  const all = getAllPopulation().filter((d) => d.province !== "Canada");
   const years = getAvailableYears();
   const firstYear = years[0];
   const lastYear = years[years.length - 1];
@@ -103,4 +108,17 @@ export function getPopulationGrowthRates(): Map<string, number> {
   });
 
   return rates;
+}
+
+export function getPopulationGrowthRateByProvince(
+  provinceName: string,
+): number {
+  const populationData = getAllPopulation().filter(
+    (d) => d.province === provinceName,
+  );
+  if (populationData.length === 0) return 0;
+
+  const first = populationData[0].population;
+  const last = populationData[populationData.length - 1].population;
+  return Math.round(((last - first) / first) * 1000) / 10;
 }

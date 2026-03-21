@@ -6,12 +6,24 @@ import { PROVINCE_MAP } from '@/app/lib/data/province';
 
 type CanadaMapProps = {
   onProvinceHover?: (province: string | null) => void;
+  highlightedProvinceCode?: string;
+  maxWidthClassName?: string;
+  showHoverHint?: boolean;
 };
 
-export default function CanadaMap({ onProvinceHover }: CanadaMapProps) {
+export default function CanadaMap({
+  onProvinceHover,
+  highlightedProvinceCode,
+  maxWidthClassName = "max-w-2xl",
+  showHoverHint = true,
+}: CanadaMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
   const [hoveredProvince, setHoveredProvince] = useState<string | null>(null);
+  const selectedProvinceName =
+    highlightedProvinceCode && PROVINCE_MAP[highlightedProvinceCode]
+      ? PROVINCE_MAP[highlightedProvinceCode]
+      : null;
 
   useEffect(() => {
     const container = containerRef.current;
@@ -26,12 +38,107 @@ export default function CanadaMap({ onProvinceHover }: CanadaMapProps) {
         if (!svg) return;
 
         svg.style.width = '100%';
-        svg.style.height = 'auto';
+        svg.style.height = '100%';
+        svg.style.display = 'block';
+        svg.style.touchAction = 'none';
 
         const provinceCodes = Object.keys(PROVINCE_MAP);
 
         svg.setAttribute('role', 'img');
         svg.setAttribute('aria-label', 'Interactive map of Canada provinces and territories');
+
+        const baseViewBoxAttr = svg.getAttribute('viewBox');
+        let [baseX, baseY, baseWidth, baseHeight] = baseViewBoxAttr
+          ? baseViewBoxAttr.split(/\s+/).map(Number)
+          : [0, 0, 1000, 700];
+
+        if (![baseX, baseY, baseWidth, baseHeight].every(Number.isFinite)) {
+          baseX = 0;
+          baseY = 0;
+          baseWidth = 1000;
+          baseHeight = 700;
+        }
+
+        const setViewBox = (x: number, y: number, width: number, height: number) => {
+          const maxX = baseX + baseWidth - width;
+          const maxY = baseY + baseHeight - height;
+          const clampedX = Math.min(Math.max(x, baseX), maxX);
+          const clampedY = Math.min(Math.max(y, baseY), maxY);
+          svg.setAttribute('viewBox', `${clampedX} ${clampedY} ${width} ${height}`);
+          return { x: clampedX, y: clampedY, width, height };
+        };
+
+        let currentView = { x: baseX, y: baseY, width: baseWidth, height: baseHeight };
+        if (highlightedProvinceCode) {
+          const activeGroup = svg.querySelector(`#${highlightedProvinceCode}`) as SVGGElement | null;
+          if (activeGroup) {
+            const bbox = activeGroup.getBBox();
+            const zoom = 2.4;
+            const targetWidth = baseWidth / zoom;
+            const targetHeight = baseHeight / zoom;
+            const targetX = bbox.x + bbox.width / 2 - targetWidth / 2;
+            const targetY = bbox.y + bbox.height / 2 - targetHeight / 2;
+            currentView = setViewBox(targetX, targetY, targetWidth, targetHeight);
+          }
+        }
+
+        let dragging = false;
+        let startClientX = 0;
+        let startClientY = 0;
+        let startViewX = currentView.x;
+        let startViewY = currentView.y;
+
+        const isProvinceTarget = (target: EventTarget | null): boolean => {
+          const el = target as Element | null;
+          if (!el || el === svg) return false;
+          const g = el.closest("g[id]");
+          const id = g?.getAttribute("id");
+          return id !== null && id !== undefined && provinceCodes.includes(id);
+        };
+
+        const onPointerDown = (e: PointerEvent) => {
+          if (isProvinceTarget(e.target)) return;
+
+          dragging = true;
+          startClientX = e.clientX;
+          startClientY = e.clientY;
+          startViewX = currentView.x;
+          startViewY = currentView.y;
+          svg.style.cursor = 'grabbing';
+          svg.setPointerCapture(e.pointerId);
+        };
+
+        const onPointerMove = (e: PointerEvent) => {
+          if (!dragging) return;
+          const rect = svg.getBoundingClientRect();
+          if (!rect.width || !rect.height) return;
+          const dx = e.clientX - startClientX;
+          const dy = e.clientY - startClientY;
+          const unitsPerPixelX = currentView.width / rect.width;
+          const unitsPerPixelY = currentView.height / rect.height;
+          const nextX = startViewX - dx * unitsPerPixelX;
+          const nextY = startViewY - dy * unitsPerPixelY;
+          currentView = setViewBox(nextX, nextY, currentView.width, currentView.height);
+        };
+
+        const onPointerUp = (e: PointerEvent) => {
+          dragging = false;
+          svg.style.cursor = 'grab';
+          try {
+            svg.releasePointerCapture(e.pointerId);
+          } catch {
+            // ignore if pointer capture was not active
+          }
+        };
+
+        svg.style.cursor = highlightedProvinceCode ? 'grab' : 'default';
+        if (highlightedProvinceCode) {
+          svg.addEventListener('pointerdown', onPointerDown);
+          svg.addEventListener('pointermove', onPointerMove);
+          svg.addEventListener('pointerup', onPointerUp);
+          svg.addEventListener('pointercancel', onPointerUp);
+          svg.addEventListener('pointerleave', onPointerUp);
+        }
 
         provinceCodes.forEach((code) => {
           const group = svg.querySelector(`#${code}`);
@@ -39,6 +146,7 @@ export default function CanadaMap({ onProvinceHover }: CanadaMapProps) {
 
           const el = group as SVGGElement;
           const name = PROVINCE_MAP[code];
+          const isActive = highlightedProvinceCode === code;
 
           el.setAttribute('tabindex', '0');
           el.setAttribute('role', 'button');
@@ -46,6 +154,9 @@ export default function CanadaMap({ onProvinceHover }: CanadaMapProps) {
           el.style.cursor = 'pointer';
           el.style.transition = 'fill 0.2s ease';
           el.style.outline = 'none';
+          if (isActive) {
+            el.style.fill = '#4a90c4';
+          }
 
           const highlight = () => {
             el.style.fill = '#4a90c4';
@@ -54,7 +165,7 @@ export default function CanadaMap({ onProvinceHover }: CanadaMapProps) {
           };
 
           const unhighlight = () => {
-            el.style.fill = '';
+            el.style.fill = isActive ? '#4a90c4' : '';
             setHoveredProvince(null);
             onProvinceHover?.(null);
           };
@@ -76,17 +187,23 @@ export default function CanadaMap({ onProvinceHover }: CanadaMapProps) {
           });
         });
       });
-  }, [router, onProvinceHover]);
+  }, [router, onProvinceHover, highlightedProvinceCode]);
 
   return (
     <div>
       <div
         ref={containerRef}
-        className="mx-auto max-w-2xl"
+        className={`mx-auto h-[420px] overflow-hidden rounded ${maxWidthClassName}`}
       />
-      <p className="mt-2 text-center text-sm text-muted font-bold h-5">
-        {hoveredProvince ?? 'Hover over a province to see its name'}
-      </p>
+      {showHoverHint ? (
+        <p className="mt-2 text-center text-sm text-muted font-bold h-5">
+          {hoveredProvince ?? selectedProvinceName ?? 'Hover over a province to see its name'}
+        </p>
+      ) : selectedProvinceName ? (
+        <p className="mt-2 text-center text-sm text-muted font-bold h-5">
+          {selectedProvinceName}
+        </p>
+      ) : null}
     </div>
   );
 }
