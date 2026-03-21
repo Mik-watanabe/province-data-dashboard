@@ -149,7 +149,9 @@ const ProvinceDetailPage = async ({
         <div className="rounded border border-card-border bg-card-bg p-4">
           <CardTitle>Latest Values: {provinceName} vs Canada</CardTitle>
           <p className="mb-3 text-base text-muted">
-            {`Latest population ${hasProvinceHpi && "and housing price index (HPI)"} comparison`}
+            {hasProvinceHpi
+              ? "Latest population and housing price index (HPI) comparison"
+              : "Latest population comparison"}
           </p>
           <ProvinceVsCanadaGrowthBarChart
             provinceName={provinceName}

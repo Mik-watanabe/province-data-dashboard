@@ -53,7 +53,7 @@ const PopulationLineChart = ({ data }: PopulationLineChartProps) => {
               <Tooltip
                 labelFormatter={(label) => `${label}`}
                 formatter={(value) => [
-                  typeof value === "number" ? value.toFixed(1) : String(value ?? ""),
+                  typeof value === "number" ? value.toLocaleString() : String(value ?? ""),
                   "Population",
                 ]}
               />
