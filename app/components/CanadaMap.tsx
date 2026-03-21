@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { PROVINCE_MAP } from '@/app/lib/data/province';
 
 type CanadaMapProps = {
@@ -19,7 +19,16 @@ export default function CanadaMap({
 }: CanadaMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+  const pathname = usePathname();
+  const pathnameRef = useRef(pathname);
+  pathnameRef.current = pathname;
+
   const [hoveredProvince, setHoveredProvince] = useState<string | null>(null);
+  const [navigatingToCode, setNavigatingToCode] = useState<string | null>(null);
+
+  useEffect(() => {
+    setNavigatingToCode(null);
+  }, [pathname]);
   const selectedProvinceName =
     highlightedProvinceCode && PROVINCE_MAP[highlightedProvinceCode]
       ? PROVINCE_MAP[highlightedProvinceCode]
@@ -37,7 +46,7 @@ export default function CanadaMap({
         const svg = container.querySelector('svg');
         if (!svg) return;
 
-        svg.style.width = '100%';
+        svg.style.width = '100%'; 
         svg.style.height = '100%';
         svg.style.display = 'block';
         svg.style.touchAction = 'none';
@@ -175,26 +184,55 @@ export default function CanadaMap({
           el.addEventListener('focus', highlight);
           el.addEventListener('blur', unhighlight);
 
-          el.addEventListener('click', () => {
+          const goToProvince = () => {
+            const match = pathnameRef.current.match(/^\/province\/([^/]+)/);
+            const currentProvinceKey = match?.[1];
+            if (currentProvinceKey === code) return;
+
+            setNavigatingToCode(code);
             router.push(`/province/${code}`);
-          });
+          };
+
+          el.addEventListener('click', goToProvince);
 
           el.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
               e.preventDefault();
-              router.push(`/province/${code}`);
+              goToProvince();
             }
           });
         });
       });
   }, [router, onProvinceHover, highlightedProvinceCode]);
 
+  const navigatingName =
+    navigatingToCode && PROVINCE_MAP[navigatingToCode]
+      ? PROVINCE_MAP[navigatingToCode]
+      : null;
+
   return (
     <div>
       <div
-        ref={containerRef}
-        className={`mx-auto h-[420px] overflow-hidden rounded ${maxWidthClassName}`}
-      />
+        className={`relative mx-auto h-[420px] overflow-hidden rounded ${maxWidthClassName}`}
+        aria-busy={navigatingToCode !== null}
+      >
+        <div ref={containerRef} className="h-full w-full" />
+        {navigatingToCode && navigatingName ? (
+          <div
+            className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 rounded bg-card-bg/85 backdrop-blur-[2px]"
+            aria-live="polite"
+            aria-label={`Loading ${navigatingName}`}
+          >
+            <span
+              className="h-9 w-9 shrink-0 animate-spin rounded-full border-2 border-card-border border-t-[#4a90c4]"
+              aria-hidden
+            />
+            <span className="px-4 text-center text-sm font-medium text-foreground">
+              Opening {navigatingName}…
+            </span>
+          </div>
+        ) : null}
+      </div>
       {showHoverHint ? (
         <p className="mt-2 text-center text-sm text-muted font-bold h-5">
           {hoveredProvince ?? selectedProvinceName ?? 'Hover over a province to see its name'}
