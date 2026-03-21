@@ -234,11 +234,11 @@ export default function CanadaMap({
         ) : null}
       </div>
       {showHoverHint ? (
-        <p className="mt-2 text-center text-sm text-muted font-bold h-5">
+        <p className="mt-2 text-center text-base text-muted font-bold h-5">
           {hoveredProvince ?? selectedProvinceName ?? 'Hover over a province to see its name'}
         </p>
       ) : selectedProvinceName ? (
-        <p className="mt-2 text-center text-sm text-muted font-bold h-5">
+        <p className="mt-2 text-center text-base text-muted font-bold h-5">
           {selectedProvinceName}
         </p>
       ) : null}
