@@ -64,11 +64,13 @@ export default function HousingPriceLineChart({
                 domain={["auto", "auto"]}
               />
               <Tooltip
-                formatter={(value: number, name: string) => [
-                  value.toFixed(1),
-                  name,
+                formatter={(value, name) => [
+                  typeof value === "number" ? value.toFixed(1) : String(value ?? ""),
+                  String(name),
                 ]}
-                labelFormatter={(label: number) => `Dec ${label}`}
+                labelFormatter={(label) =>
+                  typeof label === "number" ? `Dec ${label.toString()}` : String(label ?? "")
+                }
               />
               <ReferenceLine y={100} stroke="#9ca3af" strokeDasharray="4 4" />
               {data.map((p, i) => (
