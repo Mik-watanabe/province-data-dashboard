@@ -13,7 +13,6 @@ import { ProvinceTimeSeries } from "../lib/data/housingPriceIndex";
 import GrowthRate from "./GrowthRate";
 
 const HousingPriceIndexLineChart = ({ data }: { data: ProvinceTimeSeries }) => {
-  console.log(data);
   const chartData = data.series.map((s) => ({
     year: s.year,
     index: s.index,
