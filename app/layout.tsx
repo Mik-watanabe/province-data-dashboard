@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,12 +31,12 @@ export default function RootLayout({
         <nav className="border-b border-card-border bg-nav-bg text-nav-fg">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
             <div className="flex items-center gap-2">
-              <a href="/" aria-label="Go to home page">
+              <Link href="/" aria-label="Go to home page">
                 <span className="text-xl mr-2">🍁</span>
                 <span className="text-lg font-semibold tracking-tight">
                   CanadaStats
                 </span>
-              </a>
+              </Link>
             </div>
             <p className="hidden text-sm text-nav-fg/60 sm:block">
               Population & Housing Price Dashboard
