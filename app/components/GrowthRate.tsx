@@ -2,7 +2,7 @@ const GrowthRate = ({ rate }: { rate: number }) => {
   return (
     <>
       <p className="hidden lg:block mb-2 text-xs font-semibold text-muted">
-        Growth ratesince 2012
+        Growth rate since 2012
       </p>
       <div>
         <span

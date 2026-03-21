@@ -25,7 +25,7 @@ function formatPopulation(value: number): string {
 const PopulationLineChart = ({ data }: PopulationLineChartProps) => {
 
     const growthRate = getPopulationGrowthRateByProvince(data[0].province);
-    const chartData = data
+    const chartData = [...data]
     .sort((a, b) => a.year - b.year)
     .map((d) => ({
       year: d.year,

@@ -118,7 +118,7 @@ export function getPopulationGrowthRateByProvince(
   );
   if (populationData.length === 0) return 0;
 
-  const first: number = populationData[0].population;
-  const last: number = populationData.at(-1)?.population!;
+  const first = populationData[0].population;
+  const last = populationData[populationData.length - 1].population;
   return Math.round(((last - first) / first) * 1000) / 10;
 }

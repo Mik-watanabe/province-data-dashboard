@@ -15,7 +15,7 @@ import HousingPriceIndexLineChart from "@/app/components/HousingPriceIndexLineCh
 import ProvinceVsCanadaGrowthBarChart from "@/app/components/ProvinceVsCanadaGrowthBarChart";
 import CanadaMap from "@/app/components/CanadaMap";
 
-const provinceDetailPage = () => {
+const ProvinceDetailPage = () => {
   const { provinceKey } = useParams<{ provinceKey: string }>();
   const provinceName = PROVINCE_MAP[provinceKey as keyof typeof PROVINCE_MAP];
   if (!provinceName) {
@@ -166,4 +166,4 @@ const provinceDetailPage = () => {
   );
 };
 
-export default provinceDetailPage;
+export default ProvinceDetailPage;
