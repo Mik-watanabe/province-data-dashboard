@@ -10,7 +10,6 @@ import {
 import {
   getLatestYearCanadaIndex,
   getHighestGrowthProvince,
-  getLowestGrowthProvince,
   getProvincesTimeSeries,
 } from '@/app/lib/data/housingPriceIndex';
 import CardTitle from '@/app/components/CardTitle';
@@ -23,8 +22,7 @@ export default function Home() {
   const { index: canadaIndex, year: housingYear } = getLatestYearCanadaIndex();
   const { province: highestHousingProvince, growthRate: highestHousingRate } =
     getHighestGrowthProvince();
-  const { province: lowestHousingProvince, growthRate: lowestHousingRate } =
-    getLowestGrowthProvince();
+
   const housingTimeSeries = getProvincesTimeSeries();
 
   const popGrowthRates = getPopulationGrowthRates();

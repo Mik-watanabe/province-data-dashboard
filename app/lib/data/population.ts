@@ -1,6 +1,5 @@
 import populationData from "@/app/data/processed/province_population.json";
 import {
-  ProvincePopulation,
   ProvincePopulationData,
 } from "@/app/scripts/types";
 
