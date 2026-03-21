@@ -47,7 +47,7 @@ export default function Home() {
       <h1 className='pb-5 text-2xl lg:text-4xl font-bold'>
         Population & Housing Price Index Trends
       </h1>
-      <section className="mb-6 grid grid-cols-2 gap-3 md:grid-cols-4">
+      <section className="mb-6 grid sm:grid-cols-2 gap-3 md:grid-cols-4">
         <SummaryCard
           title="Total Population"
           value={population.toLocaleString()}
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* Row 3: Overview table (full width) */}
       <section>
-        <CardTitle>Province Population & Housing Price Index Overview ({year})</CardTitle>
+        <CardTitle className='mb-4'>Province Population & Housing Price Index Overview ({year})</CardTitle>
         <div className="overflow-x-auto rounded border border-card-border bg-card-bg">
           <table className="w-full text-left text-base">
             <thead className="border-b border-card-border bg-card-bg">

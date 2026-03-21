@@ -1,9 +1,10 @@
-'use client';
+"use client";
 
-import { useCallback, useState } from 'react';
-import CanadaMap from './CanadaMap';
-import PopulationBarChart from './PopulationBarChart';
-import CorrelationScatterChart from './CorrelationScatterChart';
+import { useCallback, useState } from "react";
+import CanadaMap from "./CanadaMap";
+import PopulationBarChart from "./PopulationBarChart";
+import CorrelationScatterChart from "./CorrelationScatterChart";
+import CardTitle from "./CardTitle";
 
 type InteractiveSectionProps = {
   provinces: { province: string; population: number }[];
@@ -17,7 +18,10 @@ export default function InteractiveSection({
   year,
 }: InteractiveSectionProps) {
   const [hoveredProvince, setHoveredProvince] = useState<string | null>(null);
-  const handleHover = useCallback((name: string | null) => setHoveredProvince(name), []);
+  const handleHover = useCallback(
+    (name: string | null) => setHoveredProvince(name),
+    [],
+  );
 
   return (
     <section className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-12">
@@ -27,19 +31,21 @@ export default function InteractiveSection({
 
       <div className="lg:col-span-7 grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="rounded border border-card-border bg-card-bg p-3">
-          <h2 className="mb-1 text-2xl font-semibold">
-            Population by Province ({year})
-          </h2>
-          <PopulationBarChart data={provinces} highlightedProvince={hoveredProvince} />
+          <CardTitle>Population by Province ({year})</CardTitle>
+          <PopulationBarChart
+            data={provinces}
+            highlightedProvince={hoveredProvince}
+          />
         </div>
         <div className="rounded border border-card-border bg-card-bg p-3">
-          <h2 className="mb-1 text-2xl font-semibold">
-            Population vs Housing Growth
-          </h2>
+          <CardTitle>Population vs Housing Growth</CardTitle>
           <p className="mb-1 text-muted text-base">
             Each dot = one province. Since 2012.
           </p>
-          <CorrelationScatterChart data={correlationData} highlightedProvince={hoveredProvince} />
+          <CorrelationScatterChart
+            data={correlationData}
+            highlightedProvince={hoveredProvince}
+          />
         </div>
       </div>
     </section>
