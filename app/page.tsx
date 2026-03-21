@@ -13,6 +13,7 @@ import {
   getLowestGrowthProvince,
   getProvincesTimeSeries,
 } from '@/app/lib/data/housingPriceIndex';
+import CardTitle from '@/app/components/CardTitle';
 
 export default function Home() {
   const { population, year } = getLatestYearCanadaPopulation();
@@ -25,6 +26,7 @@ export default function Home() {
   const { province: lowestHousingProvince, growthRate: lowestHousingRate } =
     getLowestGrowthProvince();
   const housingTimeSeries = getProvincesTimeSeries();
+
   const popGrowthRates = getPopulationGrowthRates();
 
   const housingByProvince = new Map(
@@ -42,14 +44,17 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-7xl px-4 py-5">
       {/* Summary cards */}
-      <section className="mb-4 grid grid-cols-2 gap-3 md:grid-cols-4">
+      <h1 className='pb-5 text-2xl lg:text-4xl font-bold'>
+        Population & Housing Price Index Trends
+      </h1>
+      <section className="mb-6 grid grid-cols-2 gap-3 md:grid-cols-4">
         <SummaryCard
           title="Total Population"
           value={population.toLocaleString()}
           subtitle={`Q4 ${year}`}
         />
         <SummaryCard
-          title="Fastest Pop. Growth"
+          title="Highest Population Growth"
           value={fastestProvince}
           subtitle={`+${growthRate}% since 2012`}
         />
@@ -75,10 +80,8 @@ export default function Home() {
       {/* Row 2: Housing price line chart (full width) */}
       <section className="mb-6">
         <div className="rounded border border-card-border bg-card-bg p-4">
-          <h2 className="mb-1 text-lg font-semibold">
-            Housing Price Index Trend (2012–{housingYear})
-          </h2>
-          <p className="mb-3 text-xs text-muted">
+          <CardTitle>Housing Price Index Trend (2012–{housingYear})</CardTitle>
+          <p className="mb-3 text-base text-muted">
             Base: Dec 2016 = 100 — Dashed line marks baseline. Right panel shows total change since 2012.
           </p>
           <HousingPriceLineChart data={housingTimeSeries} />
@@ -87,11 +90,9 @@ export default function Home() {
 
       {/* Row 3: Overview table (full width) */}
       <section>
-        <h2 className="mb-3 text-lg font-semibold">
-          Province & Territory Overview ({year})
-        </h2>
+        <CardTitle>Province Population & Housing Price Index Overview ({year})</CardTitle>
         <div className="overflow-x-auto rounded border border-card-border bg-card-bg">
-          <table className="w-full text-left text-sm">
+          <table className="w-full text-left text-base">
             <thead className="border-b border-card-border bg-card-bg">
               <tr>
                 <th className="px-3 py-3 font-medium">#</th>
