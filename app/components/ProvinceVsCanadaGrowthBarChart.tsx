@@ -66,8 +66,8 @@ export default function ProvinceVsCanadaGrowthBarChart({
               }}
             />
             <Tooltip
-              formatter={(value: number) => [
-                value.toLocaleString(),
+              formatter={(value, name) => [
+                typeof value === "number" ? value.toLocaleString() : String(value ?? ""),
                 "Population",
               ]}
             />
@@ -94,8 +94,8 @@ export default function ProvinceVsCanadaGrowthBarChart({
               <XAxis dataKey="name" fontSize={12} stroke="#6b7280" />
               <YAxis fontSize={12} stroke="#6b7280" width={44} />
               <Tooltip
-                formatter={(value: number | null) => [
-                  value === null ? "N/A" : value.toFixed(1),
+                formatter={(value) => [
+                  typeof value === "number" ? value.toFixed(1) : String(value ?? ""),
                   "HPI",
                 ]}
               />

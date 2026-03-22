@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "CanadaStats",
-  description: "Canada province population and housing price dashboard",
+  description: "Canada province population and housing price index dashboard",
 };
 
 export default function RootLayout({
@@ -38,23 +38,20 @@ export default function RootLayout({
                 </span>
               </Link>
             </div>
-            <p className="hidden text-sm text-nav-fg/60 sm:block">
-              Population & Housing Price Dashboard
-            </p>
           </div>
         </nav>
         {children}
         <footer className="mt-8 border-t border-card-border bg-nav-bg text-nav-fg">
           <div className="mx-auto max-w-7xl px-4 py-5">
-            <div className="flex flex-col gap-4 text-xs sm:flex-row sm:items-center sm:justify-between">
-              <div className="flex flex-col gap-0.5 text-nav-fg/70">
-                <p className="flex flex-wrap items-center gap-1">
+            <div className="flex flex-col gap-4 text-base sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex flex-col gap-0.5 text-nav-fg">
+                <p className="flex flex-wrap items-center gap-2">
                   Data source:{" "}
                   <a
                     href="https://www.statcan.gc.ca/en/start"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-0.5 underline transition-colors hover:text-nav-fg"
+                    className="inline-flex items-center gap-0.5 hover:underline transition-colors hover:text-nav-fg"
                   >
                     Statistics Canada
                     <svg
@@ -75,10 +72,10 @@ export default function RootLayout({
                     </svg>
                   </a>
                 </p>
-                <p className="text-nav-fg/50">Last updated: March 2026</p>
+                <p className="text-nav-fg lg:mt-2 ">Last updated: March 2026</p>
               </div>
               <div className="flex items-center gap-4 pt-2 sm:pl-4 sm:pt-0">
-                <span className="text-nav-fg/50">
+                <span className="text-nav-fg">
                   © {new Date().getFullYear()} Miku Watanabe
                 </span>
                 <div className="flex items-center gap-3">

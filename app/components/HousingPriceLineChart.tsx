@@ -64,11 +64,13 @@ export default function HousingPriceLineChart({
                 domain={["auto", "auto"]}
               />
               <Tooltip
-                formatter={(value: number, name: string) => [
-                  value.toFixed(1),
-                  name,
+                formatter={(value, name) => [
+                  typeof value === "number" ? value.toFixed(1) : String(value ?? ""),
+                  String(name),
                 ]}
-                labelFormatter={(label: number) => `Dec ${label}`}
+                labelFormatter={(label) =>
+                  typeof label === "number" ? `Dec ${label.toString()}` : String(label ?? "")
+                }
               />
               <ReferenceLine y={100} stroke="#9ca3af" strokeDasharray="4 4" />
               {data.map((p, i) => (
@@ -88,14 +90,14 @@ export default function HousingPriceLineChart({
       </div>
 
       <div className="lg:w-44 shrink-0 pt-2">
-        <p className="mb-2 text-xs font-semibold text-muted">
+        <p className="mb-2 text-lg font-semibold text-muted">
           Growth since 2012
         </p>
         <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 lg:grid-cols-1 lg:gap-x-0">
           {data.map((p, i) => (
             <div
               key={p.province}
-              className="flex items-center justify-between text-xs"
+              className="flex items-center justify-between text-base"
             >
               <span className="flex items-center gap-1.5 truncate">
                 <span

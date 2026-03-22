@@ -40,11 +40,13 @@ const HousingPriceIndexLineChart = ({ data }: { data: ProvinceTimeSeries }) => {
                 domain={["auto", "auto"]}
               />
               <Tooltip
-                formatter={(value: number, name: string) => [
-                  value.toFixed(1),
-                  name,
-                ]}
-                labelFormatter={(label: number) => `${label}`}
+                formatter={(value, name) => [
+                    typeof value === "number" ? value.toFixed(1) : String(value ?? ""),
+                    String(name),
+                  ]}
+                  labelFormatter={(label) =>
+                    typeof label === "number" ? label.toString() : String(label ?? "")
+                  }
               />
               <ReferenceLine y={100} stroke="#9ca3af" strokeDasharray="4 4" />
               <Line
